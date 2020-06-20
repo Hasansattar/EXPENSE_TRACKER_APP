@@ -10,6 +10,7 @@
 
 body {
   
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -226,15 +227,15 @@ input[type='number'] {
   font-size: 20px;
   line-height: 50px;
   font-weight: bolder;
-  padding: 0px 20px;
+  padding: 0px 14px;
   position: absolute;
-  top: 49%;
-  right: -14%;
+  top: 50%;
+  right: 14%;
   transform: translate(-100%, -50%);
   opacity: 0;
-  transition: opacity 0.8s ease;
+  transition:  0.15s ease;
   box-shadow: var(--box-shadow);
-  border-radius: 50%;
+  border-radius: 0 50%;
 }
 
 .list li:hover .delete-btn {
